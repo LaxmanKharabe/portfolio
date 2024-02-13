@@ -1,0 +1,15 @@
+.personal-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hedTxtx1{
+    font-size: 1.5rem;
+}
+.hedTxt2{
+    font-size: 1rem;
+}
+.hoverIcon:hover img{
+    transform: scale(1.1);
+    transition: transform .2s ease-out;
+}
