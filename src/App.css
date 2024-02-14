@@ -12,6 +12,8 @@ a:visited {
   border-bottom: 2px solid #007bff !important;
 }
 .app{
+  height: 100vh;
+  max-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: left;
