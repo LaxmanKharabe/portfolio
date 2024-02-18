@@ -1,35 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
-  font-family: Poppins, sans-serif;
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@0,100,200,300,400,500,600,700,800,900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
 }
-.nav-link{
+
+/* Common styles for navigation links */
+.nav-link {
   cursor: pointer;
-}
-.marTop{
-  margin-top: 5rem!important;
-}
-a:visited {
-  border-bottom: 2px solid #007bff !important;
-}
-.app{
-  height: 100vh;
-  max-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-.brandName{
-  width: 35px;
-  height: 33px;
-  padding: 0 !important;
-  text-align: center;
-  border-radius: 5px;
-}
-.nav-item, .nav-link{
   position: relative;
+  text-decoration: none;
+  color: inherit;
 }
+
 .nav-link::after {
   content: '';
   height: 2px;
@@ -40,14 +23,38 @@ a:visited {
   position: absolute;
   transition: width 0.3s ease, left 0.3s ease;
 }
-.nav-link:hover::after{
+
+.nav-link:hover::after,
+.nav-link.active::after {
   width: 100%;
 }
-.nav-link.active::after, .nav-link:hover::after {
-  width: 100% !important;
+
+/* Adding a common class for margin-top */
+.marTop {
+  margin-top: 5rem !important;
 }
 
-/* Switch Icon Styles */
+/* Styles for the app container */
+.app {
+  /* height: 100vh;
+  max-height: 100vh; */
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Styles for the brandName element */
+.brandName {
+  width: 35px;
+  height: 33px;
+  padding: 0 !important;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* Switch styles */
 .switch {
   position: relative;
   display: inline-block;
@@ -60,6 +67,7 @@ a:visited {
   width: 0;
   height: 0;
 }
+
 .slider {
   position: absolute;
   cursor: pointer;
@@ -69,9 +77,9 @@ a:visited {
   bottom: 0;
   background: linear-gradient(to right, lightslategrey 0%, orangered 100%);
   border-radius: 34px;
-  -webkit-transition: 0.4s;
   transition: 0.4s;
 }
+
 .slider:before {
   position: absolute;
   content: "";
@@ -81,34 +89,68 @@ a:visited {
   bottom: 3.1px;
   background-color: white;
   border-radius: 50%;
-  -webkit-transition: 0.4s;
   transition: 0.4s;
 }
+
 input:checked + .slider:before {
-  -webkit-transform: translateX(16px);
-  -ms-transform: translateX(16px);
   transform: translateX(16px);
   background-color: black;
 }
 
-/* Themes White*/
-.white-theme{
+/* Theme styles */
+.white-theme {
   background: linear-gradient(to right, violet 33%, lightcoral 100%);
   color: black;
   transition: all .6s ease-in-out;
 }
-.wtheme-color{
+
+.wtheme-color {
   color: white !important;
 }
-/* Themes Dark*/
-.dark-theme{
+
+.dark-theme {
   background-color: black;
   transition: all .6s ease-in-out;
 }
-.btheme-color{
+
+.btheme-color {
   color: black !important;
 }
+
 /* Navigation */
-.usetAll{
+.usetAll {
   all: unset;
+}
+
+/* Font size classes */
+.font-size-0{
+  font-size: 0.8rem;
+}
+.font-size-1 {
+  font-size: 1rem;
+}
+
+.font-size-2 {
+  font-size: 2rem;
+}
+
+.font-size-3 {
+  font-size: 3rem;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .flexWrap {
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+}
+
+@media screen and (max-width: 449px) {
+  .flexWrap {
+    flex-wrap: wrap;
+    gap: 60px;
+    position: relative;
+    left: -31px;
+  }
 }

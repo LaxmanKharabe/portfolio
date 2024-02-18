@@ -12,7 +12,7 @@ const Footer = () => {
     }, [])
     
     return (
-        <div className="container w-75 border-top pt-4">
+        <div className="container w-75 border-top pt-4 bg-custom">
             <div className="row">
                 <div className="col-4">
                     <p>Social Links</p>

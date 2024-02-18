@@ -1,0 +1,24 @@
+{
+    "projectData":[
+        {
+            "title": "React JS Projets",
+            "TechStack": ["React JS, React-Hooks, JavaScript, CSS, Bootstrap"]
+        },
+        {
+            "title": "Landing Pages",
+            "TechStack": ["HTML 5, CSS 3, Bootstrap 5"]
+        }, 
+        {
+            "title": "JavaScript Projets",
+            "TechStack": ["JavaScript, CSS, HTML"]
+        },
+        {
+            "title": "Full Stact Projects",
+            "TechStack": ["React JS, React-Hooks, JavaScript, CSS, Bootstrap"]
+        },
+        {
+            "title": "Node Js Projects",
+            "TechStack": ["Node JS, JavaScript, CSS, HTML"]
+        }
+    ]
+}

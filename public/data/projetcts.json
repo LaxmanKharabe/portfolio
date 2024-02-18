@@ -1,0 +1,34 @@
+{
+    "projectData":[
+        {
+            "title": "React JS Projets",
+            "TechStack": ["React JS, React-Hooks, JavaScript, CSS, Bootstrap"],
+            "images": "/images/projects_thumbs/landingPage1.png"
+        },
+        {
+            "title": "Landing Pages",
+            "TechStack": ["HTML 5, CSS 3, Bootstrap 5"],
+            "images": "/images/projects_thumbs/landingPage1.png"
+        }, 
+        {
+            "title": "JavaScript Projets",
+            "TechStack": ["JavaScript, CSS, HTML"],
+            "images": "/images/projects_thumbs/landingPage1.png"
+        },
+        {
+            "title": "Full Stact Projects",
+            "TechStack": ["React JS, React-Hooks, JavaScript, CSS, Bootstrap"],
+            "images": "/images/projects_thumbs/landingPage1.png"
+        },
+        {
+            "title": "Node Js Projects",
+            "TechStack": ["Node JS, JavaScript, CSS, HTML"],
+            "images": "/images/projects_thumbs/landingPage1.png"
+        },
+        {
+            "title": "Node Js Projects",
+            "TechStack": ["Node JS, JavaScript, CSS, HTML"],
+            "images": "/images/projects_thumbs/landingPage1.png"
+        }
+    ]
+}
