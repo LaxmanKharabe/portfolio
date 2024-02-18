@@ -34,13 +34,13 @@ const FixedNavbar = (props) => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav gap-4">
             <li className="nav-item">
-            <Link to="projects" className="nav-link"><a href="#">Projects</a></Link>
+            <Link to="projects" className="nav-link">Projects<a href="#"></a></Link>
             </li>
             <li className="nav-item">
-            <Link to="about" className="nav-link"><a href="#">About</a></Link>
+            <Link to="about" className="nav-link">About<a href="#"></a></Link>
             </li>
             <li className="nav-item">
-              <Link to="contact" className="nav-link"><a href="#">Contact</a></Link>
+              <Link to="contact" className="nav-link">Contact<a href="#"></a></Link>
             </li>
           </ul>
         </div>
