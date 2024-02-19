@@ -159,3 +159,20 @@ input:checked + .slider:before {
     left: -31px;
   }
 }
+
+/* Scroll Bar Styles */
+/* For Chrome, Safari, and newer versions of Edge */
+::-webkit-scrollbar {
+  width: 7px; /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: violet; /* Change the color as desired */
+  border-radius: 6px; /* Adjust the border-radius for rounded corners */
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 6px;
+  background-color: lightcoral; /* Change the color as desired */
+  border-radius: 8px; /* Adjust the border-radius for rounded corners */
+}

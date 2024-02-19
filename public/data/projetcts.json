@@ -1,19 +1,22 @@
 {
     "projectData":[
         {
-            "title": "React JS Projets",
-            "TechStack": ["React JS, React-Hooks, JavaScript, CSS, Bootstrap"],
-            "images": "/images/projects_thumbs/landingPage1.png"
+            "title": "Landing Page",
+            "TechStack": ["React JS, React-Hooks, Porps, JavaScript, CSS and HTML5"],
+            "images": "/images/projects_thumbs/landingPage1.png",
+            "pro_link": "https://laxman-kharabe-landing-page.netlify.app"
         },
         {
-            "title": "Landing Pages",
-            "TechStack": ["HTML 5, CSS 3, Bootstrap 5"],
-            "images": "/images/projects_thumbs/landingPage1.png"
+            "title": "Counter App",
+            "TechStack": ["React JS, React-Hooks (useReducer), JavaScript, Bootstrap 5, HTML 5 and CSS 3"],
+            "images": "/images/projects_thumbs/counterApp.png",
+            "pro_link": "https://laxman-kharabe-counter-app.netlify.app"
         }, 
         {
-            "title": "JavaScript Projets",
+            "title": "Amazon Clone",
             "TechStack": ["JavaScript, CSS, HTML"],
-            "images": "/images/projects_thumbs/landingPage1.png"
+            "images": "/images/projects_thumbs/amazonCloneImg.png",
+            "pro_link": "https://laxman-amazon-clone-design.netlify.app"
         },
         {
             "title": "Full Stact Projects",

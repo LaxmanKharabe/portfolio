@@ -19,6 +19,7 @@ const Projects = () => {
     }, [])
     return (
         <div className="container w-75 marTop">
+            <h1>Projects</h1> <br />
             <div className="row row-cols-1 row-cols-md-3 g-4">
                 {
                     Projects.projectData.slice(0, visibleCount).map(allData =>
@@ -30,8 +31,9 @@ const Projects = () => {
                                     <h5 class="card-title font-size-1">{allData.title}</h5>
                                     <p class="card-text font-size-0">{allData.TechStack.map((tech, index) => <span key={index}>{tech}</span>)}</p>
                                 </div>
-                                <div className="card-footer">
-                                    <a href="#" class="btn btn-primary btnStyls font-size-0">Check</a>
+                                <div className="card-footer d-flex justify-content-between">
+                                    <a href="#" class="btn btn-primary btnStyls font-size-0">Source Code</a>
+                                    <a href={allData.pro_link} target="_blank" class="btn btn-primary btnStyls font-size-0">Check</a>
                                 </div>
                             </div>
                         </div>
