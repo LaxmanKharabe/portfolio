@@ -1,27 +1,27 @@
 /* ScrollNavbar.css */
 .scroll-navbar {
-    transition: background-color 0.3s ease; /* Smooth transition for background color */
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 10px 20px;
-    z-index: 1000;
-  }
-  
-  .scroll-navbar ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .scroll-navbar li {
-    cursor: pointer;
-  }
-  
-  /* Style changes when scrolling */
-  .scroll-navbar.scrolling {
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(to right, violet 33%, lightcoral 100%);
-  }
-  
+  transition: background-color 0.3s ease;
+  /* Smooth transition for background color */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px;
+  z-index: 1000;
+}
+
+.scroll-navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.scroll-navbar li {
+  cursor: pointer;
+}
+
+/* Style changes when scrolling */
+.scroll-navbar.scrolling {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, violet 33%, lightcoral 100%);
+}

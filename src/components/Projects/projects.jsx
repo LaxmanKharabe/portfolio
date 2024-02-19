@@ -3,13 +3,18 @@ import './projects.css';
 const Projects = () => {
     const [Projects, setProjects] = useState({ projectData: [{ "title": "", "TechStack": [] }] });
     const [visibleCount, setVisibleCount] = useState(3);
+    const loadMore = () => {
+        setVisibleCount((prevValue) => prevValue + 3);
+        if (visibleCount >= Projects.projectData.length) {
+            console.log(visibleCount)
+        }
+    }
 
     useEffect(() => {
         fetch('./data/projetcts.json')
             .then(res => res.json())
             .then(proData => {
                 setProjects(proData);
-                console.log(proData);
             })
     }, [])
     return (
@@ -34,7 +39,7 @@ const Projects = () => {
                 }
             </div>
             <div className="d-flex w-100 justify-content-center">
-                <button className="btn btn-primary mt-4" onClick={() => { setVisibleCount((preValue) => preValue + 3) }}>Load more</button>
+                <button className="btn btn-primary mt-4" onClick={loadMore}>Load more</button>
             </div>
         </div >
     )

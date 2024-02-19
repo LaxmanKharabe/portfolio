@@ -1,7 +1,7 @@
 import './contact.css';
 const Contact = () => {
     return (
-        <section className="container w-75 d-flex flexWrap" style={{marginTop: "65px"}}>
+        <section className="container w-75 marTop d-flex flexWrap">
             <div className="lft-section">
                 <div className="contact-para">
                     <h1 className='hedTxtContact'>Contact</h1>

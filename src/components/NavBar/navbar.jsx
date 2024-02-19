@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import {NavLink } from 'react-router-dom';
 import './navbar.css';
 const FixedNavbar = (props) => {
   const [isChecked, setChecked] = useState(false);
@@ -34,13 +34,13 @@ const FixedNavbar = (props) => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav gap-4">
             <li className="nav-item">
-            <Link to="projects" className="nav-link">Projects<a href="#"></a></Link>
+            <NavLink to="projects" className="nav-link">Projects</NavLink>
             </li>
             <li className="nav-item">
-            <Link to="about" className="nav-link">About<a href="#"></a></Link>
+            <NavLink to="about" className="nav-link">About</NavLink>
             </li>
             <li className="nav-item">
-              <Link to="contact" className="nav-link">Contact<a href="#"></a></Link>
+              <NavLink to="contact" className="nav-link">Contact</NavLink>
             </li>
           </ul>
         </div>
