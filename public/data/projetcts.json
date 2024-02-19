@@ -8,7 +8,7 @@
         },
         {
             "title": "Counter App",
-            "TechStack": ["React JS, React-Hooks (useReducer), JavaScript, Bootstrap 5, HTML 5 and CSS 3"],
+            "TechStack": ["React JS, React-Hooks (useReducer), JavaScript, CSS & Bootstrap"],
             "images": "/images/projects_thumbs/counterApp.png",
             "pro_link": "https://laxman-kharabe-counter-app.netlify.app"
         }, 

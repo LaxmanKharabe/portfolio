@@ -5,7 +5,13 @@ const Contact = () => {
             <div className="lft-section">
                 <div className="contact-para">
                     <h1 className='hedTxtContact'>Contact</h1>
-                    <p>I'm currently looking for frontend internships at startups. Have an opening? Please reach out to me.</p>
+                    <p>Greetings! I'm currently exploring new opportunities and 
+                        would be delighted to discuss potential collaborations. 
+                        If you have openings or projects that align with my skills and expertise in frontend development, 
+                        I'd love to hear from you.</p>
+                    <p>Feel free to reach out for a conversation about how I can contribute to your team or project. 
+                        Your consideration is greatly appreciated, and I'm eager to explore the possibilities of working together.</p>
+                    <p>Thank you for taking the time to visit my portfolio. I look forward to connecting with you soon.</p>
                 </div>
                 <div className="links-container">
                     <a href="mailto:laxman31097@gmail.com" className="gmail-icon hoverIcon">

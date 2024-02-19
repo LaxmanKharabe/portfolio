@@ -167,12 +167,12 @@ input:checked + .slider:before {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: violet; /* Change the color as desired */
-  border-radius: 6px; /* Adjust the border-radius for rounded corners */
+  background-color: #ee82ee; /* Change the color as desired */
+  /* Adjust the border-radius for rounded corners */
 }
 
 ::-webkit-scrollbar-track {
   border-radius: 6px;
-  background-color: lightcoral; /* Change the color as desired */
-  border-radius: 8px; /* Adjust the border-radius for rounded corners */
+  background-color: white; /* Change the color as desired */
+   /* Adjust the border-radius for rounded corners */
 }
